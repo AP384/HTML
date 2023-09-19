@@ -1,0 +1,116 @@
+HEADINGS
+<h1-h6> - heading sizes
+
+PARAGRAPHS
+<p> - paragraph
+<br> - line break
+<pre> - Preformatted text
+<hr> - horizontal rule
+
+FORMATTING
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<del> - strikethrough text
+
+LINKS
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a> - link
+<a href="html_images.asp" style="text-decoration:none;">HTML Images</a> - 'text-decoration' removes underline eg on link
+<a href="html_images.asp" target="_blank">HTML Images</a> - 'target' makes link opens in different place; blank is in a new window
+<a href="default.html"><img src="smiley.gif"></a> - makes the image become a link
+<a href="mailto:someone@example.com">Send email</a> - link to an email address
+<button onclick="document.location='default.asp'">HTML Tutorial</button> - link on a button
+<a href="default.html" title="Home">Back to Home</a> - 'title' allows tooltip, in this case "Home"
+
+The 'target' attribute displays where the response to form submission gores and can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+FORMS
+<input type="text">	- Displays a single-line text input field
+<input type="radio">	- Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	- Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	- Displays a submit button (for submitting the form)
+<input type="button">	- Displays a clickable button
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+ - displays 2 empty text boxes with titles
+
+<form><input type="button" value="OK"></form> - input method is button with 'Ok' as value
+
+<form>
+<input type="radio" name="fav_language" value="html">HTML
+<input type="radio" name="fav_language" value="css">CSS
+</form>
+ - displays 2 radio buttons with titles
+
+FORM ATTRIBUTES
+<form action="/action_page.php">Name: <input type="text" name="name"><input type="submit">
+</form>
+ - Titled text box with submit button
+
+Form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post"). The default HTTP method when submitting form data is GET
+
+<form action="/action_page.php" method="post">Name: <input type="text" name="name"><input type="submit">
+</form>
+
+INPUT TYPES
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+<form action="/action_page.php">
+<input type="text" name="username">
+<input type="Submit" value="Submit Form">
+</form>
+ - text input field with name 'Username' and submit button
+
+<form action="/action_page.php">
+  Favorite color:
+  Blue
+  <input value="blue" type="radio" name="color">
+  Red
+  <input value="red" type="radio" name="color">
+  <input type="submit">
+</form>
+ - 2 radio buttons with submit button - note type nd not input type for radio (possibly as already stated)
