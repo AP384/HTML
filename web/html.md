@@ -111,6 +111,31 @@
     <li>I'm the third item</li>
 </ol>
 
+<!--------------------------------UNORDERED LIST----------------------------------->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color: red;">Approval Checklist</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+
+
+
+
+
+
 <!----------------------------------DEFINTION LIST--------------------------------->
 <!--The <dl> HTML element represents a description list. The element encloses a list of groups of terms (specified using the <dt> element) and descriptions (provided by <dd> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs)--->
 
